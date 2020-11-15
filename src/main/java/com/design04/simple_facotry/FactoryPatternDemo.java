@@ -1,7 +1,7 @@
 package com.design04.simple_facotry;
 
 /**
- * 使用了简单工厂模式
+ * 使用了简单工厂模式：不要在代码里手动new一个实现类对象，如spring ioc
  */
 public class FactoryPatternDemo {
 	

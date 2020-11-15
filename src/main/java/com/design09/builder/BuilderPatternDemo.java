@@ -1,7 +1,7 @@
 package com.design09.builder;
 
 /**
- * 构造器模式
+ * 构造器模式：封装复杂对象的构造逻辑
  */
 public class BuilderPatternDemo {
 

@@ -1,7 +1,7 @@
 package com.design22.bridge;
 
 /**
- * 桥接模式
+ * 桥接模式：两个代码组件之间面向接口桥接调用
  */
 public class BridgePatternDemo {
 	

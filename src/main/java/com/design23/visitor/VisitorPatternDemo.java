@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 访问者模式
+ * 访问者模式：动态的给目标对象增加新功能
+ * 		将组合模式和访问者模式结合起来，就是说，我们可以让那颗树执行我们想要他做的任何事情
  */
 public class VisitorPatternDemo {
 	

@@ -1,7 +1,8 @@
 package com.design20.decorator;
 
 /**
- * 装饰器模式
+ * 装饰器模式：对目标类的功能进行增强，可以层层嵌套增强
+ * 		java的io、spring的aop等
  */
 public class DecoratorPatternDemo {
 	

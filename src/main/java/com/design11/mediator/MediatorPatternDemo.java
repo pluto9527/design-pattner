@@ -1,7 +1,7 @@
 package com.design11.mediator;
 
 /**
- * 中介者模式
+ * 中介者模式：让互相调用的模块之间解耦合
  */
 public class MediatorPatternDemo {
 	

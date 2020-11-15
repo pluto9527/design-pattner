@@ -1,7 +1,7 @@
 package com.design03.template_method;
 
 /**
- * 使用了模板方法模式
+ * 使用了模板方法模式：抽取通用代码逻辑到父类
  */
 public class TemplateMethodPatterDemo {
 

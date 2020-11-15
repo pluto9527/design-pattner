@@ -1,7 +1,8 @@
 package com.design12.proxy;
 
 /**
- * 代理模式：和被代理的对象实现相同的接口，并在内部持有被代理的对象
+ * 代理模式：本地接口代理远程接口的调用
+ * 		和被代理的对象实现相同的接口，并在内部持有被代理的对象
  */
 public class ProxyPatternDemo {
 	

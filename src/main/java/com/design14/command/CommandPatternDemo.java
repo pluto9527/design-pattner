@@ -1,7 +1,9 @@
 package com.design14.command;
 
 /**
- * 命令模式
+ * 命令模式：给其他模块下达命令
+ * 		命令模式非常适合跟工厂方法模式结合起来使用，
+ * 		就是使用多个工厂来制造出不同的命令类来，将命令的构造放在工厂方法中
  */
 public class CommandPatternDemo {
 	
@@ -38,7 +40,8 @@ public class CommandPatternDemo {
 		
 		// 构造器模式，builder，工厂模式
 	}
-	
+
+	//命令接口：下层有各种不同的命令实现
 	public interface Command {
 		
 		void execute();
@@ -60,7 +63,8 @@ public class CommandPatternDemo {
 		}
 		
 	}
-	
+
+	//命令执行类：只有一个，需要执行哪个命令就封装那个命令后发送给执行类
 	public static class Invoker {
 		
 		private Command command;

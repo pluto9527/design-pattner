@@ -1,7 +1,7 @@
 package com.design08.facade;
 
 /**
- * 外观模式
+ * 外观/门面模式：将多个内部模块调用封装在一个类中
  */
 public class FacadePatternDemo {
 	

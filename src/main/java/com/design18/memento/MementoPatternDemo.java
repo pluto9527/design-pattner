@@ -1,7 +1,7 @@
 package com.design18.memento;
 
 /**
- * 备忘录模式
+ * 备忘录模式：将中间数据暂存之后再恢复
  */
 public class MementoPatternDemo {
 	

@@ -3,6 +3,7 @@ package com.design05.factory_method;
 /**
  * 使用了工厂方法模式：也就是 模板方法 + 简单工厂
  * 		抽出工厂里创建对象的通用逻辑 到 抽象的工厂父类中
+ * 适用于需要多种工厂生产不同的产品，但是产品都是类似的，同时不同的工厂有一定的相同逻辑
  */
 public class FactoryMethodPatternDemo {
 	

@@ -4,7 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 享元模式
+ * 享元模式：共享元数据，只维护一份实例
+ * 		如简单的jvm内存对象池缓存
  */
 public class FlyweightPatternDemo {
 	

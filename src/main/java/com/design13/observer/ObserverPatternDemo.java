@@ -4,7 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * 观察者模式
+ * 观察者模式：监听目标对象的状态改变，一般基于jdk的Observable类、Observer接口来实现
  */
 public class ObserverPatternDemo {
 	
@@ -18,7 +18,8 @@ public class ObserverPatternDemo {
 		subject.setState(1);
 		subject.setState(2);  
 	}
-	
+
+	//目标：被观察对象
 	public static class Subject extends Observable {
 		
 		private Integer state;
@@ -35,12 +36,13 @@ public class ObserverPatternDemo {
 			this.state = state;
 			// 通知关联的一些观察者，说我的状态变化了
 			this.setChanged();
-//			this.notifyObservers(state);   // 推模式
+//			this.notifyObservers(state);   // 推模式（对象变化的数据直接通过参数传递给观察者）
 			this.notifyObservers();	//拉模式（观察者自己获取目标对象变化的数据）
 		}
 		
 	}
-	
+
+	//观察者
 	public static class ConcreteObserver implements Observer {
 
 		public void update(Observable o, Object arg) {

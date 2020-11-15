@@ -1,7 +1,7 @@
 package com.design17.state;
 
 /**
- * 状态模式
+ * 状态模式：封装数据的状态流转逻辑
  */
 public class StatePatternDemo {
 	
@@ -24,7 +24,8 @@ public class StatePatternDemo {
 		// if 开始执行那个状态的一堆逻辑，else if，开始执行另外一个状态的一堆逻辑，屎一样的代码
 		// 代码很清晰，可读性很好，可维护性很好
 	}
-	
+
+	//状态接口：下层有不同的状态实现
 	public interface State {
 		
 		void execute();
@@ -62,7 +63,9 @@ public class StatePatternDemo {
 		}
 		
 	}
-	
+
+	//负责根据请求参数调用，来维护这些状态之间的切换，形成一个状态机的概念
+	//将状态之间流转的逻辑，封装在Context类里面，流转到不同的状态之后，执行状态对应的代码逻辑
 	public static class Context {
 		
 		private State state;

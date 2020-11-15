@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 用迭代器模式的实现
+ * 用迭代器模式的实现：封装你的集合迭代逻辑
  */
 public class IteratorPatternDemo {
 

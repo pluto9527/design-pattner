@@ -1,7 +1,7 @@
 package com.design02.adapter;
 
 /**
- * 适配器模式demo
+ * 适配器模式demo：适配老版本接口和第三方接口
  */
 public class AdapterPatterDemo {
 	

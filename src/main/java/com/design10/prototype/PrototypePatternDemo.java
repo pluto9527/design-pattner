@@ -1,7 +1,7 @@
 package com.design10.prototype;
 
 /**
- * 原型模式
+ * 原型模式：自己实现自己的对象拷贝逻辑
  */
 public class PrototypePatternDemo {
 	
@@ -19,8 +19,9 @@ public class PrototypePatternDemo {
 		
 		// 很多地方要克隆这个对象，不要自己维护克隆的逻辑，即使克隆逻辑修改了，只要在clone()方法里面修改
 	}
-	
-	public static class  Component {
+
+	//浅拷贝
+	public static class Component {
 		
 		private String name;
 
@@ -48,7 +49,8 @@ public class PrototypePatternDemo {
 		}
 		
 	}
-	
+
+	//深拷贝
 	public static class Product {
 		
 		private String name;

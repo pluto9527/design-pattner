@@ -1,7 +1,8 @@
 package com.design21.chain;
 
 /**
- * 责任链模式
+ * 责任链模式：动态组装不同的复杂业务流程
+ * 		将业务逻辑封装到不同的handler里面去，形成链条式调用
  */
 public class ChainPatternDemo {
 	

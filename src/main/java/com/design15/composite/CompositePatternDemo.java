@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 组合模式：对层级数据递归调用执行操作
+ * 		一般结合访问者模式使用
  */
 public class CompositePatternDemo {
 	

@@ -2,6 +2,7 @@ package com.design07.singleton;
 
 /**
  * 这个才是我们实际开发过程中，最最常用的单例模式，内部类的方式来实现
+ *      结合工厂模式来做，对一些工厂的实例，可以做成单例的
  */
 public class InnerClassFullSingletonPatternDemo {
 
